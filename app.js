@@ -50,7 +50,7 @@ async function main() {
     const PORT = await getVariableValue('PORT', '443');// 为保证安全隐蔽，建议留空，可在Node.js界面下的环境变量添加处（Environment variables）,点击ADD VARIABLE，修改变量
     console.log('你的端口:', PORT);
 
-    const DOMAIN = await getVariableValue('DOMAIN', 'unrulygoat-234674713860.europe-west1.run.app');// 为保证安全隐蔽，建议留空，可在Node.js界面下的环境变量添加处（Environment variables）,点击ADD VARIABLE，修改变量
+    const DOMAIN = await getVariableValue('DOMAIN', 'unrulygoat-589534449987.us-central1.run.app');// 为保证安全隐蔽，建议留空，可在Node.js界面下的环境变量添加处（Environment variables）,点击ADD VARIABLE，修改变量
     console.log('你的域名:', DOMAIN);
 
     const httpServer = http.createServer((req, res) => {
